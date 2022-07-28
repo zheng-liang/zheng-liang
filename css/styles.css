@@ -5,11 +5,26 @@ body {
 }
 
 <!-- For Navigation Bar -->
+<!-- For Navigation Bar Container -->
 .navbar {
   overflow: hidden;
   background-color: #264d73;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+.navbar ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+<!-- For links in Nav Bar -->
 .navbar a {
   float: left;
   font-size: 16px;
@@ -19,11 +34,13 @@ body {
   text-decoration: none;
 }
 
+<!-- For dropdown container -->
 .dropdown {
   float: left;
   overflow: hidden;
 }
 
+<!-- For dropdown button -->
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
@@ -35,10 +52,12 @@ body {
   margin: 0; <!-- Important for vertical align on mobile phones -->
 }
 
+<!-- For background color when hovering over links in Nav Bar -->
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #18bc9c;
 }
 
+<!-- For content in dropdown -->
 .dropdown-content {
   display: none;
   position: absolute;
@@ -48,6 +67,7 @@ body {
   z-index: 1;
 }
 
+<!-- For links in dropdown -->
 .dropdown-content a {
   float: none;
   color: black;
@@ -57,10 +77,12 @@ body {
   text-align: left;
 }
 
+<!-- For background color when hovering over dropdown links -->
 .dropdown-content a:hover {
   background-color: #e5e5e5;
 }
 
+<!-- For showing dropdown on hover -->
 .dropdown:hover .dropdown-content {
   display: block;
 }
