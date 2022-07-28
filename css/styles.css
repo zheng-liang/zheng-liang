@@ -57,7 +57,7 @@ nav ul li, footer ul li {
 .dropdown-content a:hover {background-color: #ddd;}
 
 /* Show dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: inline-block;}
+.dropdown:hover .dropdown-content {display: block;}
 
 /* Change color of dropdown button when dropdown content is shown */
 .dropdown:hover .dropbtn {
