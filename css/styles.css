@@ -18,10 +18,9 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
-    color: #18bc9c;
     padding: 10px;
     border: 1px solid #18bc9c;
 }
@@ -29,7 +28,7 @@ nav ul li {
 
 /* Hoverable dropdown */
 /* Change color of dropdown button when dropdown content is shown */
-nav ul li, .dropdown:hover nav ul li {
+nav ul li:hover, .dropdown:hover nav ul li {
     background-color: #18bc9c;
     color: white;
 }
