@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 80%;
+    width: 75%;
 }
 
 ul {
@@ -13,6 +13,7 @@ ul {
 .navbar {
   overflow: hidden;
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  font-weight: bold;
 }
 
 /* Links inside the navbar */
@@ -21,7 +22,7 @@ ul {
   font-size: 16px;
   color: #18bc9c;
   text-align: center;
-  margin-right: 20px;
+  margin-right: 10px;
   padding: 14px 16px;
   text-decoration: none;
   border: 1px solid #18bc9c;
@@ -36,6 +37,7 @@ ul {
 /* Dropdown button */
 .dropdown .dropbtn {
   font-size: 16px;
+  font-weight: bold;
   border: 1px solid #18bc9c;
   outline: none;
   color: #18bc9c;
@@ -50,6 +52,7 @@ ul {
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #18bc9c;
   color: white;
+  text-decoration: none;
 }
 
 /* Dropdown content (hidden by default) */
@@ -67,14 +70,16 @@ ul {
   float: none;
   color: black;
   padding: 12px 16px;
-  text-decoration: underline;
+  text-decoration: none;
   display: block;
   text-align: left;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #e6e6e6;
+  background-color: #f2f2f2;
+  color: black;
+  text-decoration: underline;
 }
 
 /* Show the dropdown menu on hover */
