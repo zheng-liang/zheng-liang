@@ -5,7 +5,7 @@ body {
 
 ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 nav ul, footer ul {
@@ -31,6 +31,18 @@ nav ul li, footer ul li {
   color: #18bc9c;
   padding: 10px;
   border: 1px solid #18bc9c;
+}
+
+/* For links in dropdown button */
+.dropbtn a {
+  text-decoration: none;
+  color: #18bc9c;
+}
+
+/* Change color of button when hovering */
+.dropbtn:hover, .dropbtn a:hover {
+    background-color: #18bc9c;
+    color: white;
 }
 
 /* Position dropdown content */
@@ -59,17 +71,11 @@ nav ul li, footer ul li {
   font-size: 16px;
 }
 
-/* Change color of dropdown links on hover */
+/* Change color of dropdown content links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
 
 /* Show dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
-
-/* Change color of dropdown button when dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #18bc9c;
-    color: white;
-}
 /* End hoverable dropdown */
 
 /* Link styles */
