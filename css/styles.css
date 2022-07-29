@@ -8,21 +8,24 @@ ul {
     line-height: 1.5em;
 }
 
-nav ul, footer ul {
+/* Navigation bar styles */
+nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
 
-nav ul li, footer ul li {
+nav ul li {
     display: inline;
     margin-right: 15px;
+    padding: 10px;
 }
+/* End of navigation bar styles */
 
 /* Hoverable dropdown */
 /* Dropdown button */
-.dropbtn, .dropbtn a {
+.dropbtn {
   background-color: inherit;
   font-size: 16px;
   font-weight: bold;
@@ -106,12 +109,26 @@ p {
     color: #333;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-/* End of Header and paragraph styles */
+/* End of header and paragraph styles */
 
+/* Footer styles*/
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
+
+footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+/* End of footer styles*/
 
 ul.posts {
     margin: 20px auto 40px;
