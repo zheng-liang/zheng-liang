@@ -8,7 +8,7 @@ ul {
     line-height: 1.5em;
 }
 
-nav ul, footer ul {
+nav ul button, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 10px;
     list-style: none;
@@ -32,12 +32,6 @@ nav ul li, footer ul li {
   padding: 10px;
   border: 1px solid #18bc9c;
 }
-
-/* For links in dropdown button */
-/*.dropbtn a {
-  text-decoration: none;
-  color: #18bc9c;
-}*/
 
 /* Change color of button when hovering */
 .dropbtn a:hover, .dropdown:hover .dropbtn {
