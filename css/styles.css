@@ -23,8 +23,7 @@ nav ul li, footer ul li {
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
   color: #18bc9c;
-  padding: 16px;
-  font-size: 16px;
+  padding: 0px;
   border: none;
 }
 
