@@ -65,8 +65,8 @@ nav ul li, footer ul li {
 /* Show dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Change color of dropdown button when dropdown content is shown */
-.dropdown:hover .dropbtn {
+/* Change color of dropdown button when hovering */
+.dropbtn:hover {
     background-color: #18bc9c;
     color: white;
 }
