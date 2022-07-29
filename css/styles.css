@@ -17,7 +17,7 @@ nav ul, footer ul {
 
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 /* Hoverable dropdown */
@@ -30,7 +30,7 @@ nav ul li, footer ul li {
   margin: 0; /* Important for vertical align on mobile phones */
   color: #18bc9c;
   padding: 10px;
-  border: none;
+  border: 1px solid #18bc9c;
 }
 
 /* Position dropdown content */
@@ -65,8 +65,8 @@ nav ul li, footer ul li {
 /* Show dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Change color of dropdown button when hovering */
-.dropbtn:hover {
+/* Change color of dropdown button when dropdown content is shown */
+.dropdown:hover .dropbtn {
     background-color: #18bc9c;
     color: white;
 }
