@@ -3,7 +3,7 @@
 <html>
 
  <head>
-   <title>Portfolio Optimization: Project Description</title>
+   <title>Portfolio Optimization and Back-testing Trading Strategies: Project Description</title>
    <link rel="stylesheet" href="/css/styles.css">
    <meta name="viewport" content= "width=device-width, initial-scale=0.6">
  </head>
@@ -15,17 +15,19 @@
      <a href="/AboutMe.html">About Me</a>
 
      <div class="dropdown">
-       <button class="dropbtn">Portfolio Optimization</button>
+       <button class="dropbtn">Portfolio Optimization and Back-testing Trading Strategies</button>
        <div class="dropdown-content">
-         <a href="/Portfolio Optimization Projects/Project Description.html">Project Description</a>
-         <a href="/Portfolio Optimization Projects/Portfolio Optimization and Back-testing.html" target="_blank">
+         <a href="/Portfolio Optimization and Back-testing Trading Strategies/Project Description.html">Project Description</a>
+         <a href="/Portfolio Optimization and Back-testing Trading Strategies/Portfolio Optimization and Back-testing.html" target="_blank">
            Portfolio Optimization and Back-testing</a>
-         <a href="/Portfolio Optimization Projects/Effect of Risk Measures on Portfolio Composition and Performance.html" target="_blank">
+         <a href="/Portfolio Optimization and Back-testing Trading Strategies/Effect of Risk Measures on Portfolio Composition and Performance.html" target="_blank">
            Effect of Risk Measures on Portfolio Composition and Performance</a>
-         <a href="/Portfolio Optimization Projects/Random Selection Expertise and Index Investing.html" target="_blank">
+         <a href="/Portfolio Optimization and Back-testing Trading Strategies/Random Selection Expertise and Index Investing.html" target="_blank">
            Random Selection, Expertise and Index Investing</a>
-         <a href="/Portfolio Optimization Projects/Returns and Risks_The Mean and The Median.html" target="_blank">
+         <a href="/Portfolio Optimization and Back-testing Trading Strategies/Returns and Risks_The Mean and The Median.html" target="_blank">
            Returns and Risks: The Mean and The Median</a>
+         <a href="/Portfolio Optimization and Back-testing Trading Strategies/Testing the Feasibility of a Rolling Window CAPM Strategy.html" target="_blank">
+           Testing the Feasibility of a Rolling Window CAPM Strategy</a>
        </div><!-- /dropdown-content -->
      </div><!-- /dropdown -->
 
@@ -59,11 +61,11 @@
      <div class="blurb">
        <h1>Project Description</h1>
        <p>
-       Gives an overview of each project in Portfolio Optimization.
+       Gives an overview of each project in Portfolio Optimization and Back-testing Trading Strategies.
        </p>
 
        <section>
-         <h3><a href="/Portfolio Optimization Projects/Portfolio Optimization and Back-testing.html" target="_blank">
+         <h3><a href="/Portfolio Optimization and Back-testing Trading Strategies/Portfolio Optimization and Back-testing.html" target="_blank">
            Portfolio Optimization and Back-testing</a></h3>
 
          <p>The purpose of this project was to apply what I had learnt in R onto portfolio optimization.</p>
@@ -76,7 +78,7 @@
        </section>
 
        <section>
-         <h3><a href="/Portfolio Optimization Projects/Effect of Risk Measures on Portfolio Composition and Performance.html" target="_blank">
+         <h3><a href="/Portfolio Optimization and Back-testing Trading Strategies/Effect of Risk Measures on Portfolio Composition and Performance.html" target="_blank">
            Effects of Risk Measures on Portfolio Composition and Performance</a></h3>
 
          <p>In this project, I attempted to determine the effects of the different risk measures on portfolio
@@ -98,7 +100,7 @@
        </section>
 
        <section>
-         <h3><a href="/Portfolio Optimization Projects/Random Selection Expertise and Index Investing.html" target="_blank">
+         <h3><a href="/Portfolio Optimization and Back-testing Trading Strategies/Random Selection Expertise and Index Investing.html" target="_blank">
            Random Selection, Expertise and Index Investing</a></h3>
 
          <p>The aim of this project is to find out if portfolios made of 15 randomly selected stocks from the S&P500
@@ -111,17 +113,30 @@
        </section>
 
        <section>
-         <h3><a href="/Portfolio Optimization Projects/Returns and Risks_The Mean and The Median.html" target="_blank">
+         <h3><a href="/Portfolio Optimization and Back-testing Trading Strategies/Returns and Risks_The Mean and The Median.html" target="_blank">
            Returns and Risks: The Mean and The Median</a></h3>
 
          <p>The purpose of this project is to find out if using median returns in portfolio optimization could lead to better
            portfolio performance compared to mean returns. Due to the non-normal distribution of returns, the median may be a
-           better optimization objective of expected returns.</p>
-         <p>The results of this project found that using the median return to find the optimal portfolio did not lead to
-           significant improvement in portfolio performance than using the mean return. However, this should not be taken as
-           evidence against the median return as the project was flawed in its own ways, which I described in the project.
-           Improvements to the optimization methodology and constraint selection for finding the optimal portfolios are
-           required to further study the choice of median returns in portfolio optimization.</p>
+           better optimization objective of expected returns than the mean.</p>
+         <p>I found that portfolios maximizing the median returns led to better diversification than maximizing the mean returns.
+           Furthermore, minimizing the median absolute deviation resulted in a portfolio that has the highest return among portfolios
+           minimizing the different risk measures. However, this project does not include an optimal portfolio selection which maximizes
+           return for a given level of risk, or minimizes risk for a given level of return. The project does include a few other flaws,
+           such as having only a small number of random portfolios generated for testing and not being able to show conclusively that the
+           median measure is better than the mean.</p>
+       </section>
+
+       <section>
+         <h3><a href="/Portfolio Optimization and Back-testing Trading Strategies/Testing the Feasibility of a Rolling Window CAPM Strategy.html" target="_blank">
+           Testing the Feasibility of a Rolling Window CAPM Strategy</a></h3>
+
+         <p>This project aims to test if the Capital Asset Pricing Model (CAPM) estimated using a rolling window could allow an investor
+           or trader to take advantage of inefficiencies in market pricing. I used a short-term modeling strategy with 5 trading days of
+           historical data per estimation to capture the short-term pricing inefficiencies. It does not conclude if the strategy is effective
+           for all stocks, but applying the CAPM trading strategy on Apple Inc. was able to yield short-term outperformance. Furthermore, the
+           stock had outperformed the S&P 500 ETF over the years but it could be attributed to having chosen a stock that had outperformed the
+           market consistently.</p>
        </section>
 
      </div><!-- /blurb -->
